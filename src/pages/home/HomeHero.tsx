@@ -10,19 +10,19 @@ const slides = [
   
   {
     header: <Header/>, 
-    image: {img2},
+    image: img2,
     title: "Exel in JAMB, WAEC AND NECO",
     desc: "These exam decide your path forward  Brainboost Academy teaches you what matters, shows you how to think like the test makers, and build you the confidence you need to perform when it counts",
   },
   {
     header: <Header />,
-    image: {img3},
+    image: img3,
     title: "Practice Questions",
     desc: "Get real exam experience",
   },
   {
     header: <Header />,
-    image: {img1},
+    image: img1,
     title: "Track Your Progress",
     desc: "Improve every day",
   },
