@@ -38,7 +38,7 @@ const Process = () => {
 <div className=" border-[#3D4040] bg-transparent rounded-3xl border-solid border-2  ">
       <div className="flex gap-2.5">
       
-      <img src={img1} width={130}   alt="" className="rounded-l-3xl"/>
+      <img src={img1} width={230}   alt="" className="rounded-l-3xl"/>
       
       <div className="mt-20">
       <h2>step</h2>

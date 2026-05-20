@@ -1,25 +1,28 @@
 import { useEffect, useState } from "react";
 
 import { Header } from "../../component";
+import img1 from "../../assets/images/headway-5QgIuuBxKwM-unsplash.jpg"
+import img2 from "../../assets/images/sunday work.webp"
+import img3 from "../../assets/images/vitaly-gariev-NGLWZV4xOPg-unsplash.jpg"
 
 
 const slides = [
   
   {
     header: <Header/>, 
-    image: "src/assets/images/sunday work.webp",
+    image: {img2},
     title: "Exel in JAMB, WAEC AND NECO",
     desc: "These exam decide your path forward  Brainboost Academy teaches you what matters, shows you how to think like the test makers, and build you the confidence you need to perform when it counts",
   },
   {
     header: <Header />,
-    image: "src/assets/images/vitaly-gariev-NGLWZV4xOPg-unsplash.jpg",
+    image: {img3},
     title: "Practice Questions",
     desc: "Get real exam experience",
   },
   {
     header: <Header />,
-    image: "src/assets/images/headway-5QgIuuBxKwM-unsplash.jpg",
+    image: {img1},
     title: "Track Your Progress",
     desc: "Improve every day",
   },

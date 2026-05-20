@@ -3,27 +3,23 @@
 
 const Enroll = () => {
   return (
-    <div className="text-white flex justify-center h-[100vh] items-center bg-cover bg-black opacity-80 bg-no-repeat bg-center bg-[url('src/assets/images/opppppyyyyyy.jpg')]  animate-pulse"  >
-      <div>
-        <h1>Login</h1>
-        <div>
-        <input type="email" />
-        <label htmlFor="">frosh21@gmail.com</label>
-        </div>
+    <div>
+      <form action="" className="flex flex-col">
+        <h1>Enroll form</h1>
+        <label htmlFor="name">Name</label>
+        <input type="text" name="name" id="name"/>
 
-        <div>
-        <input type="email" />
-        <label htmlFor="">frosh21@gmail.com</label>
-        </div>
+         <label htmlFor="email">Email</label>
+        <input type="email" name="email" id="email"/>
 
-        <div>
-        <input type="email" />
-        <label htmlFor="">frosh21@gmail.com</label>
-        </div>
+         <label htmlFor="age">Age</label>
+        <input type="text" name="age" id="age"/>
 
-        <input type="text" />
-      </div>
-      </div>
+         <label htmlFor="department">Department</label>
+        <input type="text" name="name" id="department"/>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   )
 }
 
