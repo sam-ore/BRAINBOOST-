@@ -1,21 +1,23 @@
-import { Footer, Header, } from "../../component"
 import Blog from "./Blog"
 import Features from "./Features"
 import HomeHero from "./HomeHero"
 import Process from "./Process"
+import Topic from "./Topic"
 
 
 const Homecomp = () => {
   return (
     <div>
-      <Header />
         <HomeHero />
         <Process />
         <Features />
         <Blog />
-        <Footer />
+        <Topic />
+        
     </div>
   )
 }
 
-export default Homecomp
+export default Homecomp;
+
+

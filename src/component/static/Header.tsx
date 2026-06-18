@@ -1,75 +1,71 @@
-import img from "../../assets/images/brainboostlogo.png"
-import { IoIosMenu } from "react-icons/io";
-import { MdClose } from "react-icons/md";
-import { useState } from "react";
+import img1 from "../../assets/images/FREE_Tiktok_App_Icon_Illustration-removebg-preview.png"
+import img4 from "../../assets/images/Facebook_Logo_PNG-removebg-preview.png"
+import img5 from "../../assets/images/627689266831789741-removebg-preview.png"
+import img6 from "../../assets/images/Instagrams_Original_Logo_Creator_Likes_The_New_Logo-removebg-preview.png"
+// import img7 from "../../assets/images/LinkedIn_New_2020_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png"
+import img2 from "../../assets/images/YouTube_Logo_PNG-removebg-preview.png"
+import img3 from "../../assets/images/Telegram_Logo_PNG-removebg-preview.png"
+import logo from "../../assets/images/Punch_logo.svg.png"
 import { NavLink } from "react-router-dom";
-// import Enroll from "../../pages/enroll/Enroll";
-
-
 const Header = () => {
-  const [show, setShow] = useState(false);
+  return (
+<div>
+  <div className="bg-black text-white flex gap-1.5 h-12 px-9">
+      <h2>Advertise with us</h2>
+   <h2>|Tuesday, June 02, 2026</h2>
+    </div>
+<div className="grid grid-cols-3 items-center px-9 h-16">
 
-  const dropDown = () => {
-    setShow(show);
-  };
+    <div className="flex  px-4">
+        <div><img src={img1} alt="" width={80}/></div>
+        <div><img src={img2} alt="" width={60}/></div>
+        <div><img src={img6} alt="" width={50}/></div>
+        <div><img src={img4} alt="" width={70}/></div>
+        <div><img src={img5} alt="" width={45}/></div>
+        <div><img src={img3} alt="" width={45}/></div>
+</div>
 
-    return (
-      
-        
-          <div className=" bg-[#ededf7]   flex  text-center justify-between pt-3 text-yellow-500 px-15 h-15">
-            <div>
-        <img src={img} alt="" width={50}/>
-      </div>
-    <nav className="lg:flex gap-4.5  text-lg justify-between font-bold hidden">
-
-      <ul className="" ><NavLink to="/Enroll">Home</NavLink></ul>
-      <ul className="" ><NavLink to="/Enroll">About Us</NavLink></ul>
-      <ul className="" ><NavLink to="/Enroll">Blog</NavLink></ul>
-      <ul className="" ><NavLink to="/Enroll">Services</NavLink></ul>
-      
-    </nav>
-      <div className="lg:flex space-x-7 text-lg hidden ">
-      <div className=" animate-pulse ">
-      <button className=" bg-yellow-500 px-4.5 py-1.5 rounded-md   gap-4.5   text-xl font-bold text-white"><a href="/enroll">Enroll</a></button>
-      </div>
-      </div>
-      
-      <div className="text-[30px] lg:hidden">
-        {show ? (
-          <div onClick={dropDown}>
-             < MdClose />
-          </div>
-        ) : (
-          <div onClick={dropDown}>
-            <IoIosMenu />
-          </div>
-        )}
-
-        {show ? (
-          <div>
-              <nav>
-      <ul className="lg:flex gap-4.5  text-lg justify-between font-bold hidden">
-        
-        <li className="text-yellow-400"><a href="">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="../../pages/home/Blog">Blog</a></li>
-      </ul>
-    </nav>
-      <div className="lg:flex space-x-7 text-lg hidden ">
-      <div className=" animate-pulse ">
-      {/* <button className=" bg-yellow-500 px-6.5 py-2.5 rounded-md   gap-4.5   text-xl font-bold text-white"><NavLink to="/enroll">Enroll</NavLink></button> */}
-      </div>
-          </div>
-          </div>
-        ) : null}
-        
-      </div>
-      </div>
+  
+  <div className=" justify-center items-center mx-auto">
+    <img src={logo} alt="" width={150} className="" />
+  <p className="items-center">Most Widely Read Newspaper</p>
+  </div>
       
   
-       
-    )
+
+  <div className="flex justify-end">
+    {/* <img src={} alt="" /> */}
+  </div>
+  
+</div>
+<hr  className=" w-full mt-3.5" />
+
+<div className=" px-13 items-center">
+  <ul className="flex gap-4 font-bold p-2 tex-xl text-[#666666]">
+    <li><a href="/">Home</a></li>
+   <NavLink to="/news">News</NavLink>
+   <NavLink to="/features">Features</NavLink>
+    <NavLink to="/metro">Metro Plus</NavLink>
+       <NavLink to="/business">Business</NavLink>
+       <NavLink to="/sport">Sport</NavLink>
+       <NavLink to="/punch">PUNCH Lite</NavLink>
+       <NavLink to="/editorial">Editorial</NavLink>
+       <NavLink to="/column">Columns</NavLink>
+       <NavLink to="/Video">Videos</NavLink>
+       <NavLink to="/continuation">Continuation From Print</NavLink>
+
+  </ul>
+</div>
+<hr />
+
+</div>
+
+
+
+
+
+  
+  )
 }
 
-export default Header;
+export default Header

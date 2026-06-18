@@ -6,10 +6,11 @@ import { RouterProvider } from 'react-router-dom'
 import { element } from './routes/Routes'
 
 
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Suspense fallback={<Isloading/>}>
-    <RouterProvider router={element}/>
+    <RouterProvider router={element} />
     </Suspense>
   </StrictMode>,
 )

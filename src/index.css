@@ -1,12 +1,21 @@
 @import "tailwindcss";
 
+@keyframes a {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
 
 
-/* .inner-container{
-  width: 80%;
+/* 
+.inner-container{
+width: 80%;
   max-width: 1440px;
  margin: 0 auto;
-} */
+}  */
 
 /* :root {
   --text: #6b6375;

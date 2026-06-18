@@ -1,56 +1,46 @@
-import img1 from "../../assets/images/abinash-jothimani-P4KX6qSaBcY-unsplash.jpg"
-import img2 from "../../assets/images/blaz-photo-zMRLZh40kms-unsplash.jpg"
-import img3 from "../../assets/images/heroBg2-C-mjBBW2.jpg"
+import advert from "../../assets/images/sceenshot.png"
+import adver from "../../assets/images/Screenshot_2-6-2026_115322_www.youtube.com_.webp"
+import n01 from "../../assets/images/no2.webp"
+import no4 from "../../assets/images/n07.webp"
+import no2 from "../../assets/images/no5.webp"
+import no3 from "../../assets/images/no4.webp"
+import no1 from "../../assets/images/no3.webp"
+
 
 const Process = () => {
   return (
-    <div className="bg-[#1B1F1E] text-white md:p-15">
-      <div className="inner-container">
-      <div className="text-center">
-      <h2>Process</h2>
-      <h1 className="text-4xl font-semibold">How we prepare you</h1>
-      <p className="mt-1.5 text-sm">Follow our structured approach to exam success</p>
-</div>
-<div className=" gap-5 pt-3.5 md:gap-6  md:flex  ">
-
-      <div className=" border-[#3D4040] bg-transparent rounded-3xl border-solid border-2 ">
-      <img src={img3} alt="" width={400} className="rounded-t-3xl"/>
-      <div className="m-4">
-      <h2>Step</h2>
-      <h1 className="text-2xl">Assess your level</h1>
-      <p>We eveluate your current knowledge and identify weak areas</p>
-      <button className="mt-16"><a href="/enroll">Next</a></button>
-      </div>
-      </div>
-
-
-<div className="border-[#3D4040] bg-transparent rounded-3xl border-solid border-2  ">
-      <img src={img2} alt="" width={400} className="rounded-t-3xl"/>
-      <div className="m-4">
-      <h2>Step</h2>
-      <h1 className="text-2xl">Learn core concepts</h1>
-      <p>Master the essential topic tested in your exams</p>
-      <button className="mt-5">Next</button>
-      </div>
-      </div>
-
-
-<div className=" border-[#3D4040] bg-transparent rounded-3xl border-solid border-2  ">
-      <div className="flex gap-2.5">
-      
-      <img src={img1} width={230}   alt="" className="rounded-l-3xl"/>
-      
-      <div className="mt-20">
-      <h2>step</h2>
-      <h1 className="text-3xl">Practice with real exams questions</h1>
-      <p className="mt-1.5">Build confidence through repeated practice and feedback</p>
-      <button className="mt-5">Next</button>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
+    <div className="px-17 ">
+    <div className="">
+      <img src={advert} alt="" />
     </div>
+
+
+<div className="bg-gray-200 mt-9 p-7 rounded-lg">
+  <div className="flex items-center gap-2">
+    <div className="w-6 h-6 bg-red-600"></div>
+  <span className="font-serif">Top Video</span>
+  <div className="h-px w-235 bg-[#00000061] "></div>
+</div>
+    <div className="flex gap-4 overflow-x-auto pt-5 ">
+  <div className="min-w-[230px] h-40 rounded-lg relative w-64"><img src={adver} alt="" />
+  <div className="relative bottom-23 left-2 text-white font-bold">
+    So This Happened (EP 401) reviews: U.S. commits ₦5bn to document religious freedom abuses
+  </div>
+  </div>
+  <div className="min-w-[280px]  h-0 rounded-lg"><img src={n01} alt="" />
+  <div className="relative bottom-20 left-2 text-white font-bold">So This Happened (EP 401) reviews: Families still await return of abducted Oyo pupils</div>
+  </div>
+  <div className="min-w-[280px]   h-60 rounded-lg"><img src={no1} alt="" /></div>
+  <div className="min-w-[280px]  h-40 rounded-lg"><img src={no3} alt="" /></div>
+  <div className="min-w-[280px]  h-40 rounded-lg"><img src={no2} alt="" /></div>
+  <div className="min-w-[280px]  h-40 rounded-lg"><img src={no4} alt="" /> </div>
+</div>
+
+<div className="text-center">
+  <button className="bg-red-500 text-white px-9 py-3 rounded-2xl mt-3"><a href="">View More</a></button>
+</div>
+</div>
+</div>
   )
 }
 

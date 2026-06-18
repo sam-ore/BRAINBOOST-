@@ -1,73 +1,140 @@
-import img1 from "../../assets/images/close.png"
-import img2 from "../../assets/images/vol-C2H39NQB.png"
-import img3 from "../../assets/images/DWC-Logo-ClaExIxJ.png"
-import img4 from "../../assets/images/ekiti-logo-DOQxa11l.jpg"
-import img5 from "../../assets/images/myhealthsureng-logo-icon-D1BKVVlz.png"
-import img6 from "../../assets/images/menu (1).png"
-
+import React from '../../assets/images/alagbada.jpg'
+import death from '../../assets/images/death.jpg'
+import oyo from '../../assets/images/oyo.webp'
+import screen from "../../assets/images/Screenshot 2026-06-04 110046.png"
 
 const Features = () => {
   return (
-    <div className="md:p-15 ">
-      <div className="inner-container">
-<h2 className="text-center pt-6">Features</h2>
-<h1 className="text-center text-4xl font-semibold">What make us different</h1>
-<p className="text-base max-w-4xl text-center md:pl-50 mt-3.5">Brainboost academy combines experienced instructors, detailed study materials and, flexible scheduling to fits your life. We focus on that works</p>
-<div className="md:flex pt-7 gap-12 mt-2.5 p-15">
+    <div className='px-17 font-bold'>
+      <div className=" mt-5 ">
+        <img src={screen} alt="" />
+      </div>
 
-  <div className="">
-<img src={img1} alt="" width={50} className="ml-30"/>
-<div className="">
-<h1 className="text-center max-w-sm text-2xl font-semibold">Expert tutors who know the exams</h1>
-<p className="text-center">Our instrctros have years of experience teaching JAMB,WACE AND NECO</p>
+         <div className='flex  gap-3.5 mt-5'>
+          <div>
+      <div className="flex gap-2 ">
+       <div className="w-6 h-6 bg-red-600"></div>
+       <h1> METRO PLUS</h1>
+        <div className="h-px w-180 bg-[#00000061] mt-4"></div>  
+           </div>
+           <div>
+             <div className='flex mt-3 '>
+              <div>
+      <img src={React} alt="" />
+      <h2>Ogun school hit by fresh gas leak, scores hospitalised</h2>
+      <p className="text-[15px]  ">Scores of students and staff at an Ijebu-Ode school were hospitalised after a fresh Ogun gas leak, the third in two months. Learn about the ongoing in...</p>
+     </div>
+     <div>
+   
+
+     <div className="flex items-center gap-2 ">
+      <div className="w-px h-100 bg-gray-400"></div>
+      <div className="grid gap-2 w-full">
+
+       <div className="flex gap-1">
+             <div><img src={death} alt="" width={300}/></div>
+
+      <h2>Final-year female varsity student found dead on Kogi highway</h2>
+      </div>
+        <div className="h-px w-60 bg-gray-400"></div>
+        <div className="flex gap-1">
+             <div><img src={death} alt="" width={300}/></div>
+
+      <h2>Bauchi teenager in police custody over teen’s drowning</h2>
+      </div>
+
+ <div className="h-px w-60 bg-gray-400"></div>
+ <div className="flex gap-1">
+            <div><img src={death} alt="" width={300}/></div>
+
+      <h2>17 nabbed for cultism in Abia</h2>
+      </div>
+
+        <div className="h-px w-60 bg-gray-400"></div>
+ <div className="flex gap-1">
+              <div><img src={death} alt="" width={300}/></div>
+
+      <h2>144 arrested in Lagos street-begging raids</h2>
+      </div>
+      </div>
+
+  
+              <div className="w-px h-100 bg-gray-400"></div>
+
+
+     <div className="grid gap-2 w-full">
+       <div className="flex gap-1">
+              <div><img src={death} alt="" width={300}/></div>
+
+      <h2>Soldiers foil kidnap attempts, rescue 10 victims in Plateau, Kaduna </h2>
+      </div>
+
+        <div className="h-px w-60 bg-gray-400"></div>
+       <div className="flex gap-1">
+           <div><img src={death} alt="" width={300}/></div>
+
+      <h2>NDLEA intercepts over 320,000 tramadol capsules in Taraba </h2>
+      </div>
+
+        <div className="h-px w-60 bg-gray-400"></div>
+       <div className="flex gap-1">
+              <div><img src={death} alt="" width={300}/></div>
+
+      <h2>One killed, 13 injured in Lagos-Abeokuta Expressway crash </h2>
+      </div>
+
+        <div className="h-px w-60 bg-gray-400"></div>
+       <div className="flex gap-1">
+        <div><img src={death} alt="" width={300}/></div>
+      <h2>Troops repel bandit attacks in Sokoto, rescue abducted farmers </h2>
+      </div>
+
+        
 </div>
+     </div>
+     </div>
+
+
+     </div>
+     <div className='text-center mt-5'>
+<button className='bg-[#FFEDED] text-red-400 px-25 py-3 rounded-xl'><a href="">More</a></button>
+</div>
+     </div>
+
 </div>
 
-<div className="  ">
-<img src={img6} alt="" width={50} className="ml-30"/>
-<div className="">
-<h1 className="text-center max-w-89 text-xl font-semibold ">Complete study materials and resoures</h1>
-<p className="text-center mt-1.5">Access everything you need in one place,from note practice test</p>
-</div>
-</div>
 
+           <div className="max-w-[100%]  text-center bg-[#f0f0f0] pt-12 p- rounded-[8px] ">
+   <div className="w-[160px] h-[250px] mx-auto mb-4 [perspective:900px] ">
+   <div className="relative w-[100%] h-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 [transform-style:preserve-3d] origin-center animate-[a_14s_linear_infinite]">
 
-<div className=" ">
-<img src={img1} alt=""  width={50}    className="ml-30"/>
- <div className="">
-<h1 className="text-center text-xl font-semibold">Learn whenever and wherever you want</h1>
-<p className="text-center mt-1.5">Study at your own place with our flexible online platform</p>
+<div className="absolute [transform:translateZ(80px)]">
+  <img src={oyo} alt="" />
 </div>
 
-
+<div className=" absolute [transform:rotateY(90deg)_translateZ(80px)]">
+  <img src={oyo} alt="" />
 </div>
+
+<div className=" absolute [transform:rotateY(180deg)_translateZ(80px)]">
+  <img src={oyo} alt="" />
+</div>
+
+<div className="absolute [transform:rotateY(-90deg)_translateZ(80px)]">
+  <img src={oyo} alt="" />
+</div>
+   </div>
+   </div>
+   <div>
+    <h1>Read PUNCH Anywhere</h1>
+    <p>Unlock the full print replica on any device - every page, every day. Subscribe now for instant e-edition access.</p>
+    <button className="bg-red-500 px-3 py-2.5 rounded-3xl">Subscribe</button>
+   </div>
+     </div>
     </div>
-    <div className=" text-center ">
-<button className="  border-gray-600 bg-transparent px-3.5 rounded-md border-solid border-2">Explore</button>
-</div>
 
-<div className="mt-46">
-<h2 className="text-center text-3xl">Ready to succeed?</h2>
-<p className="text-center mt-3.5">Join thousands of student who pass their exam with Brainboost Academy</p>
-<div className="text-center gap-10 mt-3.5 flex md:pl-125">
-<button className="bg-[#1F6FEB] px-3 rounded-md text-white">Enroll</button>
-<button className="px">Trial</button>
-</div>
-<div className="flex md:gap-30 mt-10">
-<img src={img2} alt="" width={80}/>
-<img src={img3} alt="" width={80}/>
-<img src={img4} alt="" width={80}/>
-<img src={img5} alt="" width={80}/>
-<img src={img4} alt="" width={80}/>
-<img src={img2} alt="" width={80}/>
-
-<img src="" alt="" />
-<img src="" alt="" />
-</div>
-</div>
-</div>
     </div>
   )
 }
 
-export default Features;
+export default Features
